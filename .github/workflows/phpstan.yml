@@ -9,7 +9,7 @@ on:
 jobs:
   larastan:
     name: "Running Larastan"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
 
